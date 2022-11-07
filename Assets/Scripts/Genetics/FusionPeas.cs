@@ -16,20 +16,17 @@ public class FusionPeas : MonoBehaviour
     [SerializeField]
     string genotype;
 
-
     public RandomPhenotype randomPhenotype;
     public bool isMerging = false;
 
 
     private void Update()
     {
-        if (isMerging)
-        {
-            phenotype1 = peas[0].GetComponent<RandomPhenotype>().phenotype;
-            phenotype2 = peas[1].GetComponent<RandomPhenotype>().phenotype;
-            ObtainingGenotype();
-        }
+        phenotype1 = peas[0].GetComponent<RandomPhenotype>().phenotype;
+        phenotype2 = peas[1].GetComponent<RandomPhenotype>().phenotype;
+        ObtainingGenotype();
     }
+
 
     string ObtainingGenotype()
     {
