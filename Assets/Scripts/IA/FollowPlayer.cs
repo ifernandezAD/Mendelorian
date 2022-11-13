@@ -11,7 +11,8 @@ public class FollowPlayer : MonoBehaviour
     
     void Start()
     {
-        enemyNav = GetComponent<NavMeshAgent>(); 
+        enemyNav = GetComponent<NavMeshAgent>();
+        target = ReferenceSingleton.instance.player.transform;
     }
 
     // Update is called once per frame

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1242361249749299710}
   - component: {fileID: 9050199324787923881}
   - component: {fileID: 266828203244780767}
-  - component: {fileID: 4574330125738698647}
+  - component: {fileID: 5156949210903170470}
   m_Layer: 0
   m_Name: Flower
   m_TagString: Untagged
@@ -96,7 +96,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &4574330125738698647
+--- !u!114 &5156949210903170470
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -105,6 +105,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 2999896178954886613}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4fac1c76cb1782043957cb7693b76159, type: 3}
+  m_Script: {fileID: 11500000, guid: 88651ca1b85975c40b9c7bf4d3c442e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pea:
+  - {fileID: 9036695245965731906, guid: 446ea43f8c2ca6443a3dbc53df7f2bb4, type: 3}
+  - {fileID: 5088808946101571983, guid: ef65939947819a14c80efc12b5b848a8, type: 3}
+  - {fileID: 2854063959367063239, guid: 1aee611a652bf664c9ff8b2b431b8dd9, type: 3}
+  - {fileID: 1911097009825018864, guid: 6cd7b3ff3b3167743ac6afa39e0cb8ae, type: 3}
+  - {fileID: 7448308649476420652, guid: 4b7f0d7f833a0a94eaff9dee1bf1ac52, type: 3}
+  - {fileID: 7513231508480774888, guid: ab159c0d68412b94b9d4c66c721329eb, type: 3}
+  - {fileID: 3130723520219853657, guid: 28094ffdcc270a74d934ed6b98ee3169, type: 3}
+  - {fileID: 2932779872477218511, guid: fa16b404b4908ba45a4f2ee070dd2433, type: 3}
+  - {fileID: 1888985738332783468, guid: 9d6399c99729a324fa42756b758af82f, type: 3}
+  peaSpawnLocation: {fileID: 8194149971735768040, guid: bdec2cd047be6d1408f5457ce16338cd, type: 3}
+  reactivationTime: 15
+  myCollider: {fileID: 0}
+  myRenderer: {fileID: 0}
