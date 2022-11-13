@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 1888985738332783471}
   - component: {fileID: 1888985738332783470}
   - component: {fileID: 1888985738332783469}
+  - component: {fileID: -927688521341313896}
+  - component: {fileID: -7787052470769976721}
   m_Layer: 0
   m_Name: Pea_AABB
   m_TagString: AABB
@@ -109,3 +111,42 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   phenotype: 
+--- !u!114 &-927688521341313896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1888985738332783468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe8dab9e30a9c894f903a93b79352420, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timer: 5
+  randomTime: 5
+  speed: 0
+  myAgent: {fileID: 0}
+  Target: {x: 0, y: 0, z: 0}
+--- !u!195 &-7787052470769976721
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1888985738332783468}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 1
+  m_BaseOffset: 0.5
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
