@@ -13,6 +13,7 @@ TagManager:
   - aaBB
   - aaBb
   - aabb
+  - Bullet
   layers:
   - Default
   - TransparentFX
