@@ -14,6 +14,7 @@ TagManager:
   - aaBb
   - aabb
   - Bullet
+  - Enemy
   layers:
   - Default
   - TransparentFX

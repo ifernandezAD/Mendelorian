@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MergePlayer : MonoBehaviour
 {
@@ -37,6 +38,7 @@ public class MergePlayer : MonoBehaviour
             ChangeColor();
             ChangeMesh();
             Destroy(other.gameObject);
+            WinningCheck();
         }
     }
 
@@ -236,6 +238,14 @@ public class MergePlayer : MonoBehaviour
         if (genotype == "AAbb" || genotype == "Aabb"|| genotype == "aabb")
         {
             currentModel.mesh = wrinkledModel;
+        }
+    }
+
+    void WinningCheck()
+    {
+        if (genotype == "aabb")
+        {
+            SceneManager.LoadScene("Victory");
         }
     }
 }
