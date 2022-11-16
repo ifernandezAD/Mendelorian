@@ -12,10 +12,10 @@ GameObject:
   - component: {fileID: 7448308649476420648}
   - component: {fileID: 7448308649476420649}
   - component: {fileID: 7448308649476420651}
-  - component: {fileID: 4888516858726729168}
   - component: {fileID: -8258144256953977288}
   - component: {fileID: 5358657145403553321}
   - component: {fileID: 5040428429934628799}
+  - component: {fileID: 3854538015758013487}
   m_Layer: 0
   m_Name: Pea_AAbb 3
   m_TagString: AAbb
@@ -44,7 +44,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7448308649476420652}
-  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &7448308649476420649
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -99,20 +99,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   phenotype: 
---- !u!136 &4888516858726729168
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7448308649476420652}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &-8258144256953977288
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -164,3 +150,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7aa3074ada76f5941a6ec31eae47c519, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &3854538015758013487
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7448308649476420652}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}

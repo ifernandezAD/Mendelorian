@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class MergePlayer : MonoBehaviour
 {
@@ -21,10 +22,18 @@ public class MergePlayer : MonoBehaviour
     [SerializeField]
     private Mesh wrinkledModel;
 
+    public Text genotypeText;
+
     private void Awake()
     {
         playerPhenotype = "AB";
         genotype = "AABB";
+    }
+
+    private void Update()
+    {
+
+        genotypeText.text = genotype;
     }
 
     private void OnCollisionEnter(Collision other)
@@ -114,7 +123,7 @@ public class MergePlayer : MonoBehaviour
             genotype = "aabb";
         }
 
-        return genotype;
+        return genotype;     
     }
 
     string MixingPhenotypes()

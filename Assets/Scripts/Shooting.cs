@@ -11,7 +11,7 @@ public class Shooting : MonoBehaviour
     
     void Update()
     {
-     if (Input.GetKeyDown(KeyCode.J))
+     if (Input.GetButtonDown("Fire1"))
         {
             Shoot();
         }
