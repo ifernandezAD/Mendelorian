@@ -30,7 +30,7 @@ public class FlowerCollectibleBehaviour : MonoBehaviour
 
     private void SpawnPea()
     {
-        int randomPea = Random.Range(0, 12);
+        int randomPea = Random.Range(0, 11);
         Instantiate(pea[randomPea], peaSpawnLocation.position, peaSpawnLocation.rotation);
     }
 
